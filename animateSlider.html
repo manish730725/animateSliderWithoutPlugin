@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    section.top-box {
+    background: #454444;
+    margin-bottom: 25px;
+}
+.col-md-12.motor-benifit {
+    display: flex;
+    padding: 28px;
+    justify-content: space-around;
+}
+.top-box .motor-benifit {
+    background: #3b3956 !important;
+}
+.motor-benifit .indiv {
+    display: flex;
+    align-items: center;
+}
+.motor-benifit div i {
+    font-size: 30px;
+    margin-right: 11px;
+    color: #fff;
+}
+.motor-benifit p {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+    @media(max-width:768px)
+    {
+.motor-benifit {
+		position: relative;
+	}
+	.item-1,.item-2,.item-3 {
+		position: absolute;
+		display: block!important;
+		top: 50%;
+		transform: translateY(-50%);
+		animation-duration: 9s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+	}
+	.item-1 {
+		animation-name: anim-1;
+	}
+	.item-2 {
+		animation-name: anim-2;
+	}
+	.item-3 {
+		animation-name: anim-3;
+	}
+	@keyframes anim-1 {
+		0%,8.3% {
+			opacity: 0;
+		}
+		8.3%,25% {
+			opacity: 1;
+		}
+		33.33%,100% {
+			opacity: 0;
+		}
+	}
+	@keyframes anim-2 {
+		0%,33.33% {
+			opacity: 0;
+		}
+		41.63%,58.29% {
+			opacity: 1;
+		}
+		66.66%,100% {
+			opacity: 0;
+		}
+	}
+	@keyframes anim-3 {
+		0%,66.66% {
+			opacity: 0;
+		}
+		74.96%,91.62% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+}
+</style>
+</head>
+<body>
+    <section class="top-box">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 motor-benifit">
+<div class="cirJax item-1"> <div class="indiv"><i class="fa fa-certificate"></i><p>14 Day Money-Back Guarantee</p></div></div>
+<div class="cirJax item-2"><div class="indiv"> <i class="fa fa-tasks" aria-hidden="true"></i> <p>12-month guarantee included</p></div></div>
+<div class="cirJax item-3"><div class="indiv"><i class="fa fa-truck" aria-hidden="true"></i><p>Delivery to your door</p></div></div>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
